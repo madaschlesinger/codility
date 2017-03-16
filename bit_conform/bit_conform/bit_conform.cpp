@@ -45,6 +45,8 @@ int main()
 		C = 1073741679;
 
 		assert(conform(A, A) == true);
+	
+		// foo - git hub test
 
 		int D = 1073741807; 
 		bool DA = conform(A,D); 
