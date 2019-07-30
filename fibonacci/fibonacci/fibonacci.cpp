@@ -11,7 +11,7 @@ using std::vector;
 
 
 // recursive lamba - likely not great for complexity
-function<int(int)> fibonacci = [&](int n) -> int
+function<int(int)> fibonacci = [](int n) -> int
 {
 	if (n < 1) return 0; 
 	if (n == 1 || n == 2) return 1;
